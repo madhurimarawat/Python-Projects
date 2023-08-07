@@ -5,26 +5,30 @@ This repository contains the projects that I made in the Python programming lang
 
 <centre><h1>About Python Programming</h1></centre>
 --> Python is a high-level, general-purpose, and very popular programming language.<br><br>
---> Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting-edge technology in Software Industry.
-.<br><br>
+--> Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting-edge technology in Software Industry.<br><br>
 --> Python is available across widely used platforms like Windows, Linux, and macOS.<br><br>
---> The biggest strength of Python is huge collection of standard library .<br>
+--> The biggest strength of Python is huge collection of standard library.<br>
 
 ---
 
 <h1>About Projects</h1>
 <p>Complete Description about the project and resources used.</p><br>
-<img src="https://ucarecdn.com/a1e34cff-104a-4e5e-b5d8-e229487d3b93/" width=780 height=600> <br>
+<img src="https://ucarecdn.com/a1e34cff-104a-4e5e-b5d8-e229487d3b93/" width=780 height=600>
 
 ---
 <h2>Data Visualization Automobile Dataset</h2>
---> Data Visualization is the presentation of data in pictorial format.
- <br>
---> In this project visualization of CSV file containing data of automobiles is done in python.<br>
---> CSV file contains the details of automobile-mileage,length,body-style among other attributes.<br>
---> It contains the following dimensions-[60 rows X 6 columns].<br>
+--> Data Visualization is the presentation of data in pictorial format.<br><br>
+--> Target was to see which automobile gives the most features and variations using data visualization.<br>
+<h2>Dataset Used</h2>
+<h3>Automobile Dataset</h3>
+--> This contains data about various automobile in Comma Separated Value (CSV) format.<br><br>
+--> CSV file contains the details of automobile-mileage,length,body-style among other attributes.<br><br>
+--> It contains the following dimensions-[60 rows X 6 columns].<br><br>
 --> The csv file is already preprocessed ,thus their is no need for data cleaning.<br>
---> Data visualization is done to analyze which body-style of car gives the most features.<br>
+
+ <h2>Project</h2>
+--> In this project visualization of CSV file containing data of automobiles is done in python.<br><br>
+--> Data visualization is done to analyze which body-style of car gives the most features.<br><br>
 --> Patterns found in the analysis are listed.
 
 <h2>Libraries Used</h2>
@@ -40,13 +44,19 @@ informative statistical graphics.</li>
 ---
 
 <h2>Data Visualization Nba Dataset</h2>
---> Data Visualization is the presentation of data in pictorial format.
- <br>
---> In this project visualization of CSV file containing data of Nba players is done in python.<br>
---> CSV file contains the details of players-height,weight,team,position among other attributes.<br>
---> It contains the following dimensions-[457 rows X 9 columns].<br>
+--> Data Visualization is the presentation of data in pictorial format.<br><br>
+--> Target was to see the features and variations of this dataset and the best data visualization technique for this dataset.<br>
+
+ <h2>Dataset Used</h2>
+<h3>NBA Players Dataset</h3>
+--> This contains data about various NBA Players in Comma Separated Value (CSV) format.<br><br>
+--> CSV file contains the details of players-height,weight,team,position among other attributes.<br><br>
+--> It contains the following dimensions-[457 rows X 9 columns].<br><br>
 --> The csv file is already preprocessed ,thus their is no need for data cleaning.<br>
---> Data analysis is done to decide suitable data visulization technique. <br>
+
+<h2>Project</h2>
+--> In this project visualization of CSV file containing data of Nba players is done in python.<br><br>
+--> Data analysis is done to decide suitable data visulization technique. <br><br>
 --> Finally Data Visualization is done to represent the analysis in an understandable way.<br>
 <br>
 <h2>Libraries Used</h2>

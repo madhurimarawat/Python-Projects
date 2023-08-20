@@ -10,6 +10,16 @@ This repository contains the projects that I made in the Python programming lang
 --> The biggest strength of Python is huge collection of standard library.<br>
 
 ---
+# Mode of Execution Used  <img src="https://colab.research.google.com/img/colab_favicon_256px.png" title="Google Colab" alt="Google Colab" width="40" height="40">
+
+--> Colaboratory, or “Colab” for short, is a product from Google Research which allows anybody to write and execute python code in Jupyter notebook through the browser.<br><br>
+--> Visit colab at:&nbsp; <a href="https://colab.research.google.com/"> <img src="https://colab.research.google.com/img/colab_favicon_256px.png" title="Google Colab" alt="Google Colab" width="40" height="40"></a><br><br>
+--> Create account using google account.<br><br>
+--> Once account creation is done, we can directly start coding in colab.<br><br>
+--> It supports Python and R.<br><br>
+--> Files are directly saved in Google Drive.<br>
+
+---
 
 <h1>About Projects</h1>
 <p>Complete Description about the project and resources used.</p><br>

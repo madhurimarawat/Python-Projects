@@ -1,5 +1,5 @@
 # Python-Projects
-This repository contains the projects that I made in the Python programming language.<br><br>
+This repository contains the projects that I made in the Python programming language.<br>
 
 ![1640610664788](https://github.com/madhurimarawat/Python-Projects/assets/105432776/1d2f657e-5773-445b-b579-29dda1fcc1e5)
 
@@ -17,11 +17,14 @@ This repository contains the projects that I made in the Python programming lang
 --> Create account using google account.<br><br>
 --> Once account creation is done, we can directly start coding in colab.<br><br>
 --> It supports Python and R.<br><br>
---> Files are directly saved in Google Drive.<br>
-
+--> Files are directly saved in Google Drive.<br><br>
+--> To install python library this command is used-
+```
+pip install library_name 
+```
 ---
 
-<h1>About Projects</h1>
+# About Projects
 <p>Complete Description about the project and resources used.</p><br>
 <img src="https://ucarecdn.com/a1e34cff-104a-4e5e-b5d8-e229487d3b93/" width=780 height=600>
 

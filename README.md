@@ -95,6 +95,16 @@ pip install library_name
 Dataset is taken from: <a href="https://www.kaggle.com/competitions/nyc-taxi-trip-duration/data" >🔗<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original-wordmark.svg" height =40 width=40 title="NBA Dataset" alt="NBA Dataset"> </a><br>
 
 ---
+## **6. Google App Store Exploratory Data Analysis (EDA)**
+
+--> Data Visualization is the presentation of data in pictorial format.<br><br>
+--> Data Cleaning and Visualization is done for this dataset.<br><br>
+--> This Project contains code for EDA and Data Visualization of Google App store data. <br><br>
+--> All findings are summarized, code is also explained. <br><br>
+--> At the end of this project, I have explained all findings in brief. <br><br>
+--> After all graphs explanation is also given to understand the results.
+
+---
 
 ## Libraries Used
 

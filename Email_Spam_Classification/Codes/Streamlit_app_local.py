@@ -71,7 +71,7 @@ from PIL import Image
 # Setting the page title
 # This title will only be visible when running the app locally.
 # In the deployed app, the title will be displayed as "Title - Streamlit," where "Title" is the one we provide.
-# If you don't set the title, it will default to "Streamlit."
+# If we don't set the title, it will default to "Streamlit."
 st.set_page_config(page_title="Spam Classification")
 
 # Load the model and vectorizer from file

@@ -5,6 +5,8 @@ This script creates a Streamlit-based web application for classifying email text
 It integrates machine learning models, visualizations, and dataset exploration functionalities in an 
 interactive and user-friendly interface.
 
+This script is used for the deployed app on Streamlit.
+
 Features:
 ---------
 1. **Project Description**:
@@ -66,9 +68,10 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from PIL import Image
 
-# Setting Page title
-# This will only show in localhost not in the deployed app
-# In the deployed app, title will be displayed as Streamlit only
+# Setting the page title
+# This title will only be visible when running the app locally.
+# In the deployed app, the title will be displayed as "Title - Streamlit," where "Title" is the one we provide.
+# If you don't set the title, it will default to "Streamlit."
 st.set_page_config(page_title="Spam Classification")
 
 # Load the model and vectorizer from file

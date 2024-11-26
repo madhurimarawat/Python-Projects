@@ -1,7 +1,0 @@
-1. Spam Email Detection Using Deep Learning Techniques:
-
-https://www.sciencedirect.com/science/article/pii/S1877050921007493
-
-2. Machine learning for email spam filtering review, approaches and open research problems:
-
-https://www.sciencedirect.com/science/article/pii/S2405844018353404

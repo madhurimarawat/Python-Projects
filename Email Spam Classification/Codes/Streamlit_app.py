@@ -1,3 +1,64 @@
+"""
+Email Spam Classification Web Application
+
+This script creates a Streamlit-based web application for classifying email texts as spam or not spam. 
+It integrates machine learning models, visualizations, and dataset exploration functionalities in an 
+interactive and user-friendly interface.
+
+Features:
+---------
+1. **Project Description**:
+   - Explains the purpose, approach, and methodology of the spam classification project.
+
+2. **Dataset Visualization**:
+   - Displays visualizations from the dataset, including statistical and exploratory plots.
+
+3. **Model Evaluation**:
+   - Provides a performance comparison of various machine learning models used in the project.
+
+4. **Model Visualization**:
+   - Displays visual assets, such as confusion matrices or feature importance plots, for the models.
+
+5. **Model Prediction**:
+   - Allows users to input email text and get predictions on whether it is spam or not using the Logistic Regression model.
+
+6. **Background Customization**:
+   - Includes a custom background image with adjustable opacity for an enhanced user experience.
+
+Technical Details:
+------------------
+- **Models and Vectorizer**:
+  - Uses a pre-trained Logistic Regression model for classification.
+  - Employs TF-IDF (Term Frequency-Inverse Document Frequency) for feature extraction.
+
+- **Libraries Used**:
+  - Streamlit: For creating the interactive web app.
+  - scikit-learn: For machine learning model and text vectorization.
+  - Pandas: For handling data in tabular format.
+  - PIL (Pillow): For handling and displaying images.
+  - OS: For directory traversal and file handling.
+
+- **File Structure**:
+  - `Models/Logistic Regression_Text_Best_Model.pkl`: Logistic Regression model file.
+  - `Models/tfidf_vectorizer.pkl`: TF-IDF vectorizer file.
+  - `Plots/Dataset/`: Contains dataset visualization images.
+  - `Plots/Models/Text/`: Contains model evaluation images.
+
+Usage:
+------
+1. Run the script using the Streamlit command:
+   ```
+   streamlit run Streamlit_app.py
+   ```
+2. Use the sidebar to navigate through various sections of the app.
+3. Input email text in the "Model Prediction" section to classify it as spam or not.
+
+Note:
+-----
+Ensure the necessary model and vectorizer files are present in the specified paths before running the app.
+"""
+
+# Importing Required Libraries
 import streamlit as st
 import pickle
 import os
@@ -6,6 +67,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from PIL import Image
 
 # Setting Page title
+# This will only show in localhost not in the deployed app
+# In the deployed app, title will be displayed as Streamlit only
 st.set_page_config(page_title="Spam Classification")
 
 # Load the model and vectorizer from file

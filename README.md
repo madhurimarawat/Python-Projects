@@ -106,6 +106,25 @@ Dataset is taken from: <a href="https://www.kaggle.com/competitions/nyc-taxi-tri
 
 ---
 
+### 7. Email Spam Classification
+
+--> **Objective**: Develop a machine learning system for email spam classification using Logistic Regression, focusing on accuracy and efficiency.<br><br>
+--> **Preprocessing & Feature Engineering**:  Text data is preprocessed using TF-IDF vectorization, converting raw email text into meaningful features for the model.<br<br>
+--> **Model**: Logistic Regression is used for binary classification, achieving 94.32% accuracy, with strong precision and recall metrics. <br><br>
+--> **Deployment**: The model is deployed in a Streamlit web app, enabling users to input email text and receive real-time spam classification results. <br>
+
+![Screenshot 2024-11-26 215632](https://github.com/user-attachments/assets/b74829a9-beb1-4c68-ab87-cd65f079ab80)
+
+![Screenshot 2024-11-26 215700](https://github.com/user-attachments/assets/8463511f-f266-462c-bc8d-24a82db75368)
+
+![Screenshot 2024-11-26 215714](https://github.com/user-attachments/assets/a32d92d3-4bd5-40e0-bc88-782afcd0a56b)
+
+![Screenshot 2024-11-26 215729](https://github.com/user-attachments/assets/610e0294-4b80-4a8a-87e6-e5515a7a9a0c)
+
+![Screenshot 2024-11-26 215814](https://github.com/user-attachments/assets/8016001f-1c04-4750-8a5d-3cb9cb37250d)
+
+---
+
 ## Libraries Used
 
 <p>Short Description about all libraries used in Project.</p>
